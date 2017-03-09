@@ -1,0 +1,134 @@
+/*******************
+General
+*******************/
+body {
+  background-color: #00ccff;
+  color: white; }
+
+.wrapper {
+  margin: 0 2em 1em;
+  background-color: #66e0ff;
+  padding: 1em;
+  border-radius: 30px; }
+
+a {
+  text-decoration: none;
+  color: white; }
+
+h2 {
+  text-align: center; }
+
+ul {
+  list-style: none; }
+
+/*******************
+HEADING
+*******************/
+header {
+  margin: 0;
+  padding: 1.5em 0; }
+  header h1, header h3 {
+    margin: 0;
+    padding: 0;
+    text-align: center; }
+
+/*******************
+Navigation
+*******************/
+nav {
+  border: solid;
+  margin: 0; }
+  nav ul {
+    margin: 0 ;
+    padding: 0;
+    width: 100%;
+    display: block; }
+  nav li {
+    text-align: center;
+    display: inline-block;
+    width: 33%;
+    margin: 0;
+    padding: 0; }
+    nav li a section {
+      padding: .5em 0;
+      margin: 0; }
+      nav li a section:hover {
+        background-color: #00a3cc;
+        color: #e6e6e6; }
+
+.selected {
+  background-color: #00a3cc; }
+
+/*******************
+Footer
+*******************/
+footer {
+  text-align: center;
+  margin: 2em 0;
+  clear: both; }
+  footer p, footer a {
+    color: #e6e6e6;
+    font-size: 14px; }
+  footer p {
+    margin: .6em;
+    padding: 0em; }
+  footer ul {
+    margin: 0;
+    padding: 0; }
+  footer li {
+    margin: .1em 0; }
+
+/*******************
+About
+*******************/
+#about section {
+  margin: 0 auto;
+  width: 3em; }
+#about ul {
+  list-style: disc; }
+#about h3, #about p {
+  text-align: center; }
+#about p {
+  margin: 0 25%;
+  padding: .5em; }
+
+/*******************
+Pictures
+*******************/
+#pics {
+  margin: 2em 0; }
+  #pics li {
+    text-align: center;
+    float: left;
+    width: 50%;
+    margin: 2em 0; }
+    #pics li:nth-child(3n) {
+      clear: left; }
+  #pics section {
+    margin: 0 auto;
+    width: 40%;
+    background-color: #00a3cc;
+    border-radius: 20px;
+    max-width: 250px;
+    min-width: 180px; }
+  #pics img {
+    width: 100%;
+    border-radius: 20px;
+    max-width: 250px; }
+  #pics p {
+    margin: 0 10%;
+    padding: 0 0 .6em;
+    max-width: 80%; }
+
+/*******************
+Favorites
+*******************/
+table {
+  margin: 1.5em auto; }
+
+td {
+  border: solid 2px white;
+  padding: .5em;
+  background-color: #00a3cc; }
+
+/*# sourceMappingURL=main.css.map */
